@@ -16,10 +16,10 @@ Se implementan dos fases principales:
 
 ### Archivos Principales
 * **`hmm_model_syntheis_exam.ipynb`**: Notebook principal. Contiene el pipeline completo del HMM: preprocesamiento, selección de estados (BIC), entrenamiento (Baum-Welch) y decodificación (Viterbi).
-* **``**: Notebook de análisis exploratorio. Realiza el ajuste de distribuciones de probabilidad (Normal, Gamma, Lognormal) para cada variable y justifica las transformaciones utilizadas.
+* **`PDF_NDVI_Climatic_Variables`**: Notebook de análisis exploratorio. Realiza el ajuste de distribuciones de probabilidad (Normal, Gamma, Lognormal) para cada variable y justifica las transformaciones utilizadas.
 
 ### Datos
-* **`exp9b_ndvi_mae_robusto.xlsx`**: Dataset fuente que contiene las series temporales diarias de:
+* **`Data_Ndvi.xlsx`**: Dataset fuente que contiene las series temporales diarias de:
     * NDVI (Índice de Vegetación)
     * Precipitación (mm)
     * Temperatura Máxima y Mínima (°C)
